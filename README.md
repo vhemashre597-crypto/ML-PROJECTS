@@ -3,10 +3,11 @@
 Machine learning projects built in Google Colab using Python and scikit-learn.
 
 ## 1. Anemia Prediction using ML
-Predicts whether a person is anemic from blood test values.
-- **Features:** Gender, Hemoglobin, MCH, MCHC, MCV
-- **Target:** Result (0 = not anemic, 1 = anemic)
-- **Model:** Random Forest Classifier
+Predicts anemia-related outcomes from blood test values.
+- **Features:** Gender, Hemoglobin, MCH, MCHC, MCV, Result
+- **Models:** Random Forest Classifier and Random Forest Regressor
+- **Tuning:** GridSearchCV (best: 200 trees, no max depth)
+- **Tuned regression results:** R² ≈ 0.72, MAE ≈ 0.63
 - **Files:** `Anemia_Prediction_using_ML.ipynb`, `anemia.csv`
 
 ## 2. Digit Recognition using Supervised Learning
